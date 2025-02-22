@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Import Bootstrap CSS -->
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!-- Global styles -->
+        <link rel="stylesheet" href="../Css/global.css">
+        <style>
+            #comments > div:not(:last-child) {
+                border-bottom: 1px solid #cac2c2;
+            }
+
+        </style>
+    </head>
+<body>
+    <!-- Main Content -->
+    <div class="container" style="height: 100vh;">
+        <!-- User's Post -->
+        <div class="d-flex justify-content-center mt-5">
+            <div class="col-9" id="content-container">
+                <!-- Post -->
+                <div class="card shadow rounded mb-3 mt-3 p-4">
+                    <div class="card-header">
+                        <img src="../Profile-Images/image-01.jpeg" alt="" class="img-thumbnail rounded-circle" style="width: 50px; height: 50px;">
+                        <b>@Ismaeel</b>
+                    </div>
+                    <div class="card-body">
+                        <img class="w-100" src="../Placeholders/post-img-01.jpeg" alt="">
+                        <h6 style="color: #777;" class="mt-1">4 min ago</h6>
+                        <h5>Hello World</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <hr>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-dots" viewBox="0 0 16 16">
+                                <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                                </svg>
+                            <span class="mx-2">(5) Comments</span>   
+                            <span>                          
+                            <span class="badge bg-secondary fs-6">Sport</span>
+                            <span class="badge bg-secondary fs-6">Food</span>
+                            <span class="badge bg-secondary fs-6">Cars</span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <!-- Comments -->
+                     <div class="mt-3 rounded" id="comments" style="background-color: #ebebeb;">
+                        <!-- Comment -->
+                        <div class="p-4">
+                            <div class="d-flex">
+                                <img src="../Profile-Images/image-01.jpeg" alt="" class="rounded-circle" style="
+                                width: 40px; 
+                                height: 40px;     
+                                position: relative;
+                                top: -6px;
+                                margin-right: 10px;">
+                                <b>Ismaeel</b>
+                            </div>
+                            <div>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Sit autem veniam quos magnam, dolores quaerat eligendi quis 
+                                atque ipsa ducimus sed amet dolorum velit sunt quidem adipisci 
+                                sapiente alias laboriosam?
+                            </div>
+                        </div>
+                        <!--// Comment //-->
+                        <!-- Comment -->
+                        <div class="p-4">
+                            <div class="d-flex">
+                                <img src="../Profile-Images/image-01.jpeg" alt="" class="rounded-circle" style="
+                                width: 40px; 
+                                height: 40px;     
+                                position: relative;
+                                top: -6px;
+                                margin-right: 10px;">
+                                <b>Ismaeel</b>
+                            </div>
+                            <div>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Sit autem veniam quos magnam, dolores quaerat eligendi quis 
+                                atque ipsa ducimus sed amet dolorum velit sunt quidem adipisci 
+                                sapiente alias laboriosam?
+                            </div>
+                        </div>
+                        <!--// Comment //-->
+                        <!-- Comment -->
+                        <div class="p-4">
+                            <div class="d-flex">
+                                <img src="../Profile-Images/image-01.jpeg" alt="" class="rounded-circle" style="
+                                width: 40px; 
+                                height: 40px;     
+                                position: relative;
+                                top: -6px;
+                                margin-right: 10px;">
+                                <b>Ismaeel</b>
+                            </div>
+                            <div>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Sit autem veniam quos magnam, dolores quaerat eligendi quis 
+                                atque ipsa ducimus sed amet dolorum velit sunt quidem adipisci 
+                                sapiente alias laboriosam?
+                            </div>
+                        </div>
+                        <!--// Comment //-->
+                    </div>
+                    <!--// Comments //-->
+                </div>
+                <!--// Post //--> 
+            </div>
+        </div>
+        <!--// User's Post //-->
+    </div>
+    <!--// Main Content //-->
+    <!-- Bootstrap JS  + Propper -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Axios -->
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <!-- components.js -->
+    <script src="../Javascript/components.js"></script>
+    <!-- main.js -->
+    <script src="../Javascript/main.js"></script>
+    <!-- profile.js -->
+    <script src="../Javascript/postDetails.js"></script>
+</body>
+</html>
